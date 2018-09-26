@@ -1,0 +1,86 @@
+[26-Sep-2018 07:57:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/scratch/functions.php on line 5
+[26-Sep-2018 08:00:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/scratch/functions.php on line 5
+[26-Sep-2018 08:00:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/scratch/functions.php on line 5
+[26-Sep-2018 08:01:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/scratch/functions.php on line 5
+[26-Sep-2018 08:02:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/scratch/functions.php on line 5
+[26-Sep-2018 08:02:45 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /app/public/wp-content/themes/scratch/index.php on line 3
+[26-Sep-2018 08:03:39 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /app/public/wp-content/themes/scratch/index.php on line 3
+[26-Sep-2018 08:03:42 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /app/public/wp-content/themes/scratch/index.php on line 3
+[26-Sep-2018 08:05:20 UTC] PHP Parse error:  syntax error, unexpected ':' in /app/public/wp-content/themes/scratch/index.php on line 4
+[26-Sep-2018 08:08:48 UTC] PHP Parse error:  syntax error, unexpected ':' in /app/public/wp-content/themes/scratch/index.php on line 4
+[26-Sep-2018 08:08:59 UTC] PHP Parse error:  syntax error, unexpected ':' in /app/public/wp-content/themes/scratch/index.php on line 6
+[26-Sep-2018 08:11:35 UTC] PHP Parse error:  syntax error, unexpected ':' in /app/public/wp-content/themes/scratch/index.php on line 6
+[26-Sep-2018 08:14:03 UTC] PHP Parse error:  syntax error, unexpected ':' in /app/public/wp-content/themes/scratch/index.php on line 6
+[26-Sep-2018 08:14:13 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ':' in /app/public/wp-content/themes/scratch/index.php on line 13
+[26-Sep-2018 08:15:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'scratch_enqueue_scripts' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[26-Sep-2018 08:15:04 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/scratch/index.php on line 4
+[26-Sep-2018 08:15:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in /app/public/wp-content/themes/scratch/index.php:15
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/scratch/index.php on line 15
+[26-Sep-2018 08:15:25 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/scratch/index.php on line 4
+[26-Sep-2018 08:15:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in /app/public/wp-content/themes/scratch/index.php:15
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/scratch/index.php on line 15
+[26-Sep-2018 08:16:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in /app/public/wp-content/themes/scratch/index.php:13
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/scratch/index.php on line 13
+[26-Sep-2018 08:18:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in /app/public/wp-content/themes/scratch/index.php:13
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/scratch/index.php on line 13
+[26-Sep-2018 08:18:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in /app/public/wp-content/themes/scratch/index.php:13
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/scratch/index.php on line 13
+[26-Sep-2018 08:29:46 UTC] PHP Notice:  Undefined property: WP_Ajax_Upgrader_Skin::$api in /app/public/wp-admin/includes/class-theme-upgrader.php on line 122
+[26-Sep-2018 08:40:40 UTC] PHP Warning:  Error while sending QUERY packet. PID=3404 in /app/public/wp-includes/wp-db.php on line 1924
+[26-Sep-2018 08:42:45 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /app/public/wp-includes/wp-db.php on line 1531
+[26-Sep-2018 09:03:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[26-Sep-2018 09:03:48 UTC] PHP Notice:  Undefined property: WP_Error::$name in /app/public/wp-content/themes/spicepress/functions/customizer-notify/spicepress-customizer-notify-section.php on line 209
+[26-Sep-2018 09:20:44 UTC] PHP Notice:  Undefined property: WP_Error::$name in /app/public/wp-content/themes/spicepress/functions/customizer-notify/spicepress-customizer-notify-section.php on line 209
+[26-Sep-2018 09:30:55 UTC] PHP Notice:  Undefined property: WP_Error::$name in /app/public/wp-content/themes/spicepress/functions/customizer-notify/spicepress-customizer-notify-section.php on line 209
+[26-Sep-2018 09:31:34 UTC] PHP Notice:  Undefined property: WP_Error::$name in /app/public/wp-content/themes/spicepress/functions/customizer-notify/spicepress-customizer-notify-section.php on line 209
+[26-Sep-2018 09:53:41 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[26-Sep-2018 10:33:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/basismit/functions.php on line 24
+[26-Sep-2018 10:34:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/basismit/functions.php on line 24
+[26-Sep-2018 10:34:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/basismit/functions.php on line 24
+[26-Sep-2018 10:35:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/basismit/functions.php on line 24
+[26-Sep-2018 11:04:22 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/basismit/single-post.php on line 3
+[26-Sep-2018 11:04:54 UTC] PHP Parse error:  syntax error, unexpected '?>' in /app/public/wp-content/themes/basismit/single-post.php on line 3
+[26-Sep-2018 11:05:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/basismit/single-post.php on line 3
+[26-Sep-2018 11:05:31 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in /app/public/wp-content/themes/basismit/single-post.php on line 8
+[26-Sep-2018 11:05:43 UTC] PHP Parse error:  syntax error, unexpected '?>' in /app/public/wp-content/themes/basismit/single-post.php on line 3
+[26-Sep-2018 11:13:24 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/basismit/single-post.php on line 8
+[26-Sep-2018 11:13:49 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/basismit/single-post.php on line 8
+[26-Sep-2018 12:01:25 UTC] PHP Notice:  Undefined variable: show in /app/public/wp-content/themes/basismit/header.php on line 18
+[26-Sep-2018 12:01:25 UTC] PHP Notice:  Undefined variable: filter in /app/public/wp-content/themes/basismit/header.php on line 18
+[26-Sep-2018 12:35:33 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/basismit/front-page.php on line 37
+[26-Sep-2018 12:35:55 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/basismit/front-page.php on line 37
+[26-Sep-2018 12:49:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_exerpt() in /app/public/wp-content/themes/basismit/front-page.php:30
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/basismit/front-page.php on line 30
+[26-Sep-2018 13:17:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/basismit/front-page.php on line 113
+[26-Sep-2018 13:27:46 UTC] PHP Warning:  Error while sending QUERY packet. PID=13787 in /app/public/wp-includes/wp-db.php on line 1924
+[26-Sep-2018 13:27:50 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /app/public/wp-includes/wp-db.php on line 1531
