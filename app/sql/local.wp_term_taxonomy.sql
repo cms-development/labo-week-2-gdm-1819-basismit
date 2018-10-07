@@ -3,7 +3,7 @@
 /*!40103 SET TIME_ZONE='+00:00' */;
 INSERT INTO `wp_term_taxonomy` VALUES
 (1,1,"category","",0,2),
-(2,2,"category","",0,2),
+(2,2,"category","",0,3),
 (4,4,"nav_menu","",0,3),
 (5,5,"nav_menu","",0,5),
 (7,7,"category","",0,2);

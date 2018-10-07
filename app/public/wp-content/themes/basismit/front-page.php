@@ -1,6 +1,4 @@
-<?php get_header(); ?>
-front
-<?php 
+<?php get_header(); 
     $mostRecent = new WP_Query( array(
     'post_type' => 'post',
     'posts_per_page' => 2, 
@@ -17,75 +15,71 @@ front
         'posts_per_page' => 2 
     ));
 ?>
-<div class="container">
+<main class="container">
     <div class="row">
-        <div class="col-12">
-            <h1><?php echo _e('Blog');?></h1>
-        </div>
-        <div class="col-12">
-            <div class="row align-items-center">
-                <?php if($blogs->have_posts()) : while ($blogs->have_posts()) : $blogs->the_post();?>
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <?php the_title( '<h3 class="card-title"><a href="' . esc_url( get_permalink() ) . '">', '</a></h3>' );?>
-                            <?php the_content('<div class="card-text>','</div>'); ?>
-                        </div>
-                    </div>
+    <div class="col s6">
+            <h3>
+                <?php echo _e('Blog');?>
+            </h3>
+            <div class="content card">
+                <div>
+                    <ul class="collection">
+                        <?php if($blogs->have_posts()) : while ($blogs->have_posts()) : $blogs->the_post();?>
+                        <li class="collection-item">
+                        <?php the_title( '<h5><a href="' . esc_url( get_permalink() ) . '">', '</a></h5>' );?>
+                        <?php the_content('<p>','</p>'); ?>
+                        </li>
+                        <?php endwhile;
+                            else : 
+                            endif; 
+                            wp_reset_postdata(); 
+                        ?>
+                        </ul>
                 </div>
-                <?php endwhile;
-                else : 
-                endif; 
-                wp_reset_postdata(); 
-                ?>
+            </div>
+        </div>
+        <div class="col s6">
+            <h3>
+                <?php echo _e('Meest recent');?>
+            </h3>
+            <div class="content card">
+                <div>
+                    <ul class="collection">
+                        <?php if($mostRecent->have_posts()) : while ($mostRecent->have_posts()) : $mostRecent->the_post();?>
+                        <li class="collection-item">
+                        <?php the_title( '<h5><a href="' . esc_url( get_permalink() ) . '">', '</a></h5>' );?>
+                        <?php the_content('<p>','</p>'); ?>
+                        </li>
+                        <?php endwhile;
+                            else : 
+                            endif; 
+                            wp_reset_postdata(); 
+                        ?>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col s6">
+            <h3>
+                <?php echo _e('Weetjes');?>
+            </h3>
+            <div class="content card">
+                <div>
+                    <ul class="collection">
+                        <?php if($tips->have_posts()) : while ($tips->have_posts()) : $tips->the_post();?>
+                        <li class="collection-item">
+                        <?php the_title( '<h5><a href="' . esc_url( get_permalink() ) . '">', '</a></h5>' );?>
+                        <?php the_content('<p>','</p>'); ?>
+                        </li>
+                        <?php endwhile;
+                            else : 
+                            endif; 
+                            wp_reset_postdata(); 
+                        ?>
+                        </ul>
+                </div>
             </div>
         </div>
     </div>
-    <div class="row">
-    <div class="col-12">
-        <h1><?php echo _e('Meest recent');?></h1>
-        </div>
-        <div class="col-12">
-            <div class="row align-items-center">
-            <?php if($mostRecent->have_posts()) : while ($mostRecent->have_posts()) : $mostRecent->the_post();?>
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <?php the_title( '<h3 class="card-title"><a href="' . esc_url( get_permalink() ) . '">', '</a></h3>' );?>
-                            <?php the_content('<div class="card-text>','</div>'); ?>
-                        </div>
-                    </div>
-                </div>
-                <?php endwhile;
-                else : 
-                endif; 
-                wp_reset_postdata(); 
-                ?>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-    <div class="col-12">
-    <h1><?php echo _e('Weetjes');?></h1>
-        </div>
-        <div class="col-12">
-            <div class="row align-items-center">
-            <?php if($tips->have_posts()) : while ($tips->have_posts()) : $tips->the_post();?>
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <?php the_title( '<h3 class="card-title"><a href="' . esc_url( get_permalink() ) . '">', '</a></h3>' );?>
-                            <?php the_content('<div class="card-text>','</div>'); ?>
-                        </div>
-                    </div>
-                </div>
-                <?php endwhile;
-                else : 
-                endif; 
-                wp_reset_postdata(); 
-                ?>
-            </div>
-        </div>
-    </div>
-</div>
+</main>
 <?php get_footer(); ?>

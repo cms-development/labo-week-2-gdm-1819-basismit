@@ -1,0 +1,81 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 2018-10-02 11:17
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.48
+WORDPRESS:	4.9.8
+PHP INFO:	7.2.9 | SAPI: fpm-fcgi
+SERVER:		nginx/1.14.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (256M default) 
+MEMORY STACK: 2MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+FILTERED: [] 
+RESPONSE: mysqldump: [Warning] Using a password on the command line interface can be insecure.
+ 
+TABLES: total:13 | filtered:0 | create:13 
+SQL CREATED: 20181002_basielsmitz_12fa8296beefaedb5740_20181002111721_database.sql 
+SQL FILE SIZE: 453.25KB (464127) 
+SQL FILE TIME: 2018-10-02 11:17:34 
+SQL RUNTIME: 0.19 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /app/public 
+ARCHIVE FILE: 20181002_basielsmitz_12fa8296beefaedb5740_20181002111721_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	34.98MB 
+STATS:	Dirs 229 | Files 1,912 
+SQL ADDED: 20181002_basielsmitz_12fa8296beefaedb5740_20181002111721_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2141
+    [filename] => /app/public/wp-snapshots/tmp/20181002_basielsmitz_12fa8296beefaedb5740_20181002111721_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 11.79MB 
+ARCHIVE RUNTIME: 34.26 sec. 
+MEMORY STACK: 2MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preparing for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [/app/public/wp-snapshots/tmp/20181002_basielsmitz_12fa8296beefaedb5740_20181002111721_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 453.25KB 
+Installer File: 474.12KB 
+Archive File: 11.79MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 41.90 sec.
+PEAK PHP MEMORY USED: 4MB
+DONE PROCESSING => 20181002_basielsmitz 2018-10-02 11:18
+ 

@@ -104,7 +104,6 @@ INSERT INTO `wp_postmeta` VALUES
 (149,37,"_wp_trash_meta_time","1537953674"),
 (153,39,"_wp_trash_meta_status","publish"),
 (154,39,"_wp_trash_meta_time","1537953890"),
-(155,40,"_edit_lock","1537964318:1"),
 (156,42,"_menu_item_type","post_type"),
 (157,42,"_menu_item_menu_item_parent","0"),
 (158,42,"_menu_item_object_id","5"),
@@ -159,7 +158,6 @@ INSERT INTO `wp_postmeta` VALUES
 (207,47,"_menu_item_xfn",""),
 (208,47,"_menu_item_url",""),
 (209,47,"_menu_item_orphaned","1537954088"),
-(210,40,"_customize_restore_dismissed","1"),
 (211,48,"_wp_trash_meta_status","publish"),
 (212,48,"_wp_trash_meta_time","1537954317"),
 (213,49,"_menu_item_type","post_type"),
@@ -302,4 +300,8 @@ INSERT INTO `wp_postmeta` VALUES
 (368,70,"_edit_last","1"),
 (369,70,"_edit_lock","1537964169:1"),
 (371,72,"_edit_last","1"),
-(373,72,"_edit_lock","1537961493:1");
+(373,72,"_edit_lock","1537961493:1"),
+(374,92,"_edit_last","1"),
+(375,92,"_edit_lock","1538555464:1"),
+(376,101,"_edit_last","1"),
+(377,101,"_edit_lock","1538554950:1");
